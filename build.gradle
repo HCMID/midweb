@@ -1,0 +1,81 @@
+/*
+Gradle build to manage home web site on shot.holycross.edu.
+*/
+import edu.holycross.shot.mdweb.SiteBuilder
+import org.pegdown.PegDownProcessor
+import org.apache.tools.ant.filters.*
+
+
+apply plugin: "base"
+apply from: "conf.gradle"
+
+
+buildscript {
+    repositories {
+        mavenCentral()
+	// for mdweb library
+        maven {
+            url "http://beta.hpcc.uh.edu/nexus/content/repositories/releases"
+        }
+	// for pegdown library
+        maven {
+            url "https://repository.jboss.org/nexus/content/repositories/scala-tools-releases"
+        }
+    }
+    dependencies {
+        classpath  group: 'edu.holycross.shot', name : 'mdweb' , version: "0.3.1"
+        classpath group: 'org.pegdown', name : 'pegdown', version: "1.0.1"
+
+    }
+}
+
+
+task css(type:Copy) {
+    from cssdirectory
+    into "${buildDir.path}/web/css"
+    include "**.css"
+}
+
+task imgs(type:Copy) {
+    from "imgs"
+    into "${buildDir.path}/web/imgs"
+    include "**jpg"
+}
+
+task pdfs(type:Copy) {
+    from "src/pdfs"
+    into "${buildDir.path}/web/pdfs"
+    include "**.pdf"
+}
+
+task raw(type:Copy) {
+    from "src/html"
+    into "${buildDir.path}/web"
+    include "**.html"
+    include "**.css"
+}
+
+
+task md(type:Copy) {
+    from srcdirectory
+    into "${buildDir.path}/md"
+    include "**/**.md"
+    include "**/**.txt"
+    include "**/**.properties"
+//    filter(ReplaceTokens, tokens : ["f12members" : f12members, "f12candidates": f12candidates] )
+}
+
+
+task web(dependsOn: [css, pdfs, raw, md, imgs]) {
+    description =  "Use mdweb library to build web site"
+    doLast {
+        File src = new File("${buildDir.path}/md")
+        File out = new File("${buildDir.path}/web")
+        SiteBuilder sb = new SiteBuilder(src,out)
+        sb.setInputEncoding(inputEncoding)
+        sb.setOutputEncoding(outputEncoding)
+        sb.buildSite()
+    }
+}
+
+

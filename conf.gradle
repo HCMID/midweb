@@ -1,0 +1,13 @@
+
+project.ext {
+    inputEncoding = "UTF-8"
+    outputEncoding = "UTF-8"
+
+    srcdirectory = "src/md"
+    cssdirectory = "src/css"
+}
+
+
+
+
+

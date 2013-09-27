@@ -1,0 +1,39 @@
+/*
+*  less source for responsive.css:  
+*  CSS to style a specific layout and theme in a responsive
+*  design.
+*  This layout alters the number of columns used in the
+*  article[role = 'main'] depending on the results of
+*  @media queries.
+*  Maximum device size queried for is min-width=2080.
+*
+*  Usage:
+*  This sheet should be included in your HTML after
+*  reset.css.
+*
+*  License:
+*  Creative Commons Attribution Share-Alike.
+
+*  Some of this derives from Jonathan Verecchia's 
+*  responsive template available from
+*  http://www.initializr.com/
+*  and released in the public domain.
+*  See also
+*  http://verekia.com/initializr/responsive-template
+*
+*  Some of this, including the magical font-size scaling
+*  and the wonderful GSS javascript overlay, was derived from GGS.css:
+* 
+*  Golden Grid System (1.01)   <http://goldengridsystem.com/>
+*  by Joni Korpi               <http://jonikorpi.com/>
+*  licensed under MIT          <http://opensource.org/licenses/mit-license.php>
+*
+*
+*  TBD:  
+*  This stylesheet and the accompanying responsive.css
+*  stylesheet should be generated from lesscss source, instead of
+*  being manually written:
+*  http://lesscss.org
+*/
+/* Note to self because I always forgot this: 
+   order of 4-parameter settings is  t r b l  */

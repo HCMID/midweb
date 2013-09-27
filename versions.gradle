@@ -1,0 +1,5 @@
+project.ext {
+	    pegdownversion = "1.0.1"
+	    mdversion = "0.3.1"
+}
+

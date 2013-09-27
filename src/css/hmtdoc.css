@@ -1,0 +1,130 @@
+/*
+* less source for hmtdoc.css
+* 
+* License:
+*  Creative Commons Attribution Share-Alike.
+*/
+/* Style Homer Multitext project technical documentation */
+/* Colors */
+/* Mixins */
+.normalFont {
+  font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+  line-height: 1.8em;
+  font-size: 12pt;
+}
+.smallerFont {
+  font-size: 85%;
+  line-height: 1.2em;
+}
+.largerFont {
+  font-size: 125%;
+}
+.heading {
+  padding: 0.5em;
+  padding-left: 0em;
+  font-weight: bolder;
+}
+/* Elements below */
+body {
+  padding: 4em;
+  font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+  line-height: 1.8em;
+  font-size: 12pt;
+}
+html {
+  color: #191919;
+}
+h1 {
+  font-size: 125%;
+}
+h1,
+h2,
+h3 {
+  padding: 0.5em;
+  padding-left: 0em;
+  font-weight: bolder;
+}
+footer,
+nav {
+  font-size: 85%;
+  line-height: 1.2em;
+}
+nav {
+  padding: 0.5em;
+  /*border: 1px solid #800000;*/
+  border : 1px solid  #4682B4 ;
+ border: 1px solid     
+}
+header nav {
+  border: 1px solid #eeeeee;
+}
+article {
+  padding: 0.5em;
+}
+header,
+footer {
+  /*background-color: #800000;*/
+  background-color : #4682B4 ;
+  padding: 0.5em;
+  color: #eeeeee;
+}
+header a,
+footer a {
+  color: #eeeeee;
+}
+p {
+  margin-bottom: 0.5em;
+}
+a {
+  /*color: #800000;*/
+  color : #4682B4 ;
+}
+a:hover {
+  text-decoration: underline;
+}
+blockquote {
+  padding: 0.5em;
+  margin: 2em;
+  background-color: #CCCCCC;
+}
+ul {
+  padding: 0.5em;
+  margin-left: 4em;
+  list-style-type: circle;
+}
+ol {
+  padding: 0.5em;
+  margin-left: 4em;
+  list-style-type: lower-greek;
+}
+li:nth-child(odd) {
+  background-color: #eeeeee;
+}
+li ul li:nth-child(even) {
+  background-color: #eeeeee;
+}
+li:nth-child(even) {
+  background-color: #ffffff;
+}
+li ul li:nth-child(odd) {
+  background-color: #ffffff;
+}
+code {
+  font-family: monospace;
+}
+dt {
+  font-weight: bold;
+  font-family: monospace;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+
+th {
+   font-weight: bold;
+   text-align: center;
+}
+
