@@ -2,10 +2,23 @@
 # Phoros:  Athenian inscriptions related to tribute #
 
 See
+- an [initial collection of material][guide], including a guide to reading Stele 1
 
-- the project's [archival repository on github][1]
-- an [initial collection of material][2], including a guide to reading Stele 1
 
-[1]: http://shot.holycross.edu/phoros/
 
-[2]: https://github.com/neelsmith/phoros
+[guide]: http://shot.holycross.edu/phoros/
+
+| Archival repository | Citable resources | Project wiki |
+|---------------------|-------------------|--------------|
+| [github][1] | [CITE services][3] | [wiki][2] (not active) |
+
+
+
+[1]: https://github.com/neelsmith/phoros
+
+
+
+[2]: https://github.com/neelsmith/phoros/wiki
+
+
+[3]: http://beta.hpcc.uh.edu/tomcat/phoroscite/
