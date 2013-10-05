@@ -15,4 +15,4 @@ The Archimedes team is currently focusing on parallel works of Archimedes in two
 
 [2]: https://github.com/neelsmith/archimedes-hc/wiki
 
-[3]: http://beta.hpcc.uh.edu/tomcat/archimedes/
+[3]: http://beta.hpcc.uh.edu/tomcat/apcite/
