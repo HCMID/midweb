@@ -5,13 +5,15 @@ The Chant team is currently looking at two early manuscripts with musical notati
 
 | Archival repository | Citable resources | Project wiki |
 |---------------------|-------------------|--------------|
-| [github][1] | (not yet available) | [wiki][2] |
+| [github][1] | [CITE services][3] | [wiki][2] |
 
 
 
 [1]: https://github.com/neelsmith/chant
 
 [2]: https://github.com/neelsmith/chant/wiki
+
+[3]: http://beta.hpcc.uh.edu/tomcat/chantcite/
 
 
 
