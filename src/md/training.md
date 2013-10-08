@@ -7,8 +7,9 @@ To help members develop the skills they need to create digital scholarly edition
 
 | Skill |  Next training session scheduled at club meeting | References |
 |-------|------------|---------------------------|
+| Recording structured paleographic observations | Oct. 11, 3:30, Fenwick 420 | (handouts at workshop) |
 | Create composite images of bifolio spreads | Sept. 27: 2:00 in Fenwick 428 | [Guide to creating bifolio images with GIMP](http://shot.holycross.edu/hcmid/guides/gimp-bifolio.html)|
-| Introduction to distributed version control systems | Sept. 27, 2:00 and 3:00, Fenwick 420 | (handouts at workshop) |
+| Introduction to distributed version control systems | Sept. 27, 2:00 and 3:00, Fenwick 420 | [Brief overview of version control with git](http://shot.holycross.edu/hcmid/guides/git-intro.html) |
 
 
 <!--
