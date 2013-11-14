@@ -2,7 +2,7 @@
 
 ## Upcoming events ##
 
-- Sept 27: regular meetings resume
+- Nov. 15 Presentation on the manuscripts of Jerome by **Mike Kinney** at 3pm
 
 ## Recent events ##
 
