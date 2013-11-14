@@ -12,7 +12,6 @@
 - **Mike Kinney's** presentation on the manuscripts of Jerome is this Friday, Nov. 15th at 3pm!
 - **FYI** -- nice article about [innovative uses of github][wired], including a [repository for Gregorian chant][grego] (really!)
 - If you're interested in a field trip to the Museum of Science to see the [Dead Sea Scrolls exhibit][dead], get in touch with Becky Musgrave asap!
-- Sept. 27: regular meetings commence.
 
 [wired]: http://www.wired.com/wiredenterprise/2013/09/github-for-anything/
 
